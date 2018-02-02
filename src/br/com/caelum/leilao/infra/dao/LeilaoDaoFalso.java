@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.caelum.leilao.dominio.Leilao;
+import br.com.caelum.leilao.servico.RepositorioDeLeiloes;
 
 public class LeilaoDaoFalso implements RepositorioDeLeiloes {
 

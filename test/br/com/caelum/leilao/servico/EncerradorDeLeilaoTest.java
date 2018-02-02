@@ -1,8 +1,8 @@
 package br.com.caelum.leilao.servico;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+
 import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.inOrder;
 import static org.mockito.Mockito.mock;
@@ -22,7 +22,6 @@ import org.mockito.InOrder;
 
 import br.com.caelum.leilao.dominio.Leilao;
 import br.com.caelum.leilao.infra.dao.LeilaoDao;
-import br.com.caelum.leilao.infra.dao.RepositorioDeLeiloes;
 
 public class EncerradorDeLeilaoTest {
 		
